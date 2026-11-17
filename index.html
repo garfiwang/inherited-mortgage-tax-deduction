@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <title>房貸可扣稅 ｜ 繼承取得房地附帶未償債務「額外負擔」減除核釋 ｜ 重點速讀與深度解析</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+    body { font-family: 'Noto Sans TC', sans-serif; background-color: #0B0F19; color: #F8FAFC; }
+    .font-serif-tc { font-family: 'Noto Serif TC', serif; }
+    .mobile-slide-content { height: 100%; overflow-y: auto; -webkit-overflow-scrolling: touch; padding: 1.25rem 1rem 1.75rem 1rem; }
+    .swiper-pagination-bullet { background: rgba(255, 255, 255, 0.35); opacity: 1; width: 7px; height: 7px; transition: all 0.3s ease; }
+    .swiper-pagination-bullet-active { background: #F59E0B !important; width: 24px; border-radius: 6px; }
+    .glass-card {
+      background: rgba(30, 41, 59, 0.72);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .gradient-gold {
+      background: linear-gradient(135deg, #FDE68A 0%, #F59E0B 50%, #D97706 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    /* Hide scrollbars for slick look while keeping scrollability */
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col antialiased selection:bg-amber-500 selection:text-slate-950">
+
+  <!-- 頂部導覽列 -->
+  <header class="sticky top-0 z-50 bg-slate-900/95 backdrop-blur-md border-b border-slate-800 px-4 py-3 sm:px-6">
+    <div class="max-w-5xl mx-auto flex items-center justify-between gap-3">
+      <div class="flex items-center space-x-3 min-w-0">
+        <span class="inline-flex items-center justify-center px-2.5 py-1 text-xs font-black tracking-wider bg-amber-500 text-slate-950 rounded shadow-sm shrink-0">
+          稅務法規
+        </span>
+        <div class="min-w-0">
+          <h1 class="text-sm sm:text-base font-bold text-slate-100 flex items-center gap-1.5 truncate">
+            <span>繼承房貸「額外負擔」可扣稅</span>
+          </h1>
+          <p class="text-[11px] text-slate-400 hidden sm:block truncate">財政部台財稅字第 10904601200 號令 ｜ 問大師家族辦公室</p>
+        </div>
+      </div>
+
+      <!-- 雙模式切換 Tab -->
+      <div class="bg-slate-800/90 p-1 rounded-xl flex text-xs font-bold border border-slate-700 shadow-inner shrink-0">
+        <button id="tab-mobile-slide" onclick="switchMainView('slide')" class="px-3 py-1.5 rounded-lg transition-all text-slate-950 bg-amber-400 font-extrabold shadow flex items-center gap-1.5">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+          <span>重點速讀</span>
+        </button>
+        <button id="tab-article" onclick="switchMainView('article')" class="px-3 py-1.5 rounded-lg transition-all text-slate-300 hover:text-white flex items-center gap-1.5">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"></path></svg>
+          <span>全文閱讀</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- 模式 1：重點速讀 (Mobile-First Swiper Slide Deck) -->
+  <main id="view-mobile-slide" class="flex-1 flex flex-col items-center justify-center h-[calc(100vh-62px)] w-full overflow-hidden bg-slate-950">
+    <div class="w-full max-w-lg h-full flex flex-col bg-slate-900/70 sm:border-x sm:border-slate-800 shadow-2xl relative">
+      
+      <!-- 頂部卡片指示器 -->
+      <div class="flex items-center justify-between px-4 py-2 bg-slate-900/90 border-b border-slate-800 text-xs text-slate-300 shrink-0">
+        <div class="flex items-center gap-2">
+          <span class="w-2.5 h-2.5 rounded-full bg-amber-400 animate-pulse"></span>
+          <span class="font-bold tracking-wider text-slate-200">房地傳承 × 稅務速讀</span>
+        </div>
+        <div id="mobile-page-indicator" class="font-mono font-bold text-amber-400 bg-amber-500/15 px-2.5 py-0.5 rounded-full border border-amber-500/30">
+          1 / 7
+        </div>
+      </div>
+
+      <!-- Swiper 容器 -->
+      <div class="swiper mobileSwiper flex-1 w-full h-full overflow-hidden">
+        <div class="swiper-wrapper">
+          
+          <!-- Slide 1: 封面與案例背景 -->
+          <div class="swiper-slide h-full">
+            <div class="mobile-slide-content no-scrollbar flex flex-col justify-between space-y-3">
+              <div class="space-y-3">
+                <div class="flex items-center justify-between">
+                  <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-md bg-amber-500/15 border border-amber-500/30 text-amber-400 text-xs font-bold">
+                    🏛️ 房地傳承與稅務規劃
+                  </span>
+                  <span class="text-[11px] text-slate-400 font-mono">01 / 07</span>
+                </div>
+
+                <!-- 投影片圖形預覽 -->
+                <div class="relative group rounded-xl overflow-hidden border border-slate-700/80 shadow-lg cursor-pointer bg-slate-950" onclick="openLightbox('images/01.png', '投影片 01 封面')">
+                  <img src="images/01.png" alt="投影片 01 封面" class="w-full aspect-[16/9] object-cover transition-transform duration-300 group-hover:scale-105" />
+                  <div class="absolute inset-0 bg-slate-950/20 group-hover:bg-transparent transition-colors"></div>
+                  <span class="absolute bottom-2 right-2 px-2 py-0.5 bg-slate-950/80 backdrop-blur rounded text-[10px] text-amber-300 border border-slate-700 flex items-center gap-1">
+                    <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"></path></svg>
+                    點擊放大投影片
+                  </span>
+                </div>
+
+                <div>
+                  <h2 class="text-xl sm:text-2xl font-black font-serif-tc text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-amber-400 to-amber-100 leading-snug">
+                    繼承房子也繼承房貸？<br/>賣房時，別漏掉「額外負擔」！
+                  </h2>
+                  <p class="text-xs text-slate-300 border-l-2 border-amber-400 pl-2.5 mt-2 leading-relaxed">
+                    掌握房地交易所得的可能減除項目 ｜ 財政部 109 年函釋重點深度解析
+                  </p>
+                </div>
+
+                <div class="glass-card rounded-xl p-3 space-y-1.5 text-xs text-slate-200">
+                  <div class="flex items-center justify-between text-slate-400 border-b border-slate-700/60 pb-1">
+                    <span class="font-bold text-amber-300">核心法源依據</span>
+                    <span class="text-[11px] text-slate-400">109.07.15 令</span>
+                  </div>
+                  <p class="leading-relaxed text-slate-300">
+                    依據財政部<strong>台財稅字第 10904601200 號令</strong>：繼承人實際承受被繼承人金融機構房貸，超過公告現值部分可列為「額外負擔」減除所得！
+                  </p>
+                </div>
+              </div>
+
+              <div class="text-[11px] text-slate-400 text-center pt-1 border-t border-slate-800/80">
+                向左滑動進入「核心痛點」 ➔
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2: 核心盲點與問題 -->
+          <div class="swiper-slide h-full">
+            <div class="mobile-slide-content no-scrollbar flex flex-col justify-between space-y-3">
+              <div class="space-y-3">
+                <div class="flex items-center justify-between">
+                  <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-md bg-red-950/80 border border-red-800/60 text-red-400 text-xs font-bold">
+                    ⚠️ 01 理解問題與痛點
+                  </span>
+                  <span class="text-[11px] text-slate-400 font-mono">02 / 07</span>
+                </div>
+
+                <!-- 投影片圖形預覽 -->
+                <div class="relative group rounded-xl overflow-hidden border border-slate-700/80 shadow-lg cursor-pointer bg-slate-950" onclick="openLightbox('images/02.png', '投影片 02 理解問題')">
+                  <img src="images/02.png" alt="投影片 02 理解問題" class="w-full aspect-[16/9] object-cover transition-transform duration-300 group-hover:scale-105" />
+                  <span class="absolute bottom-2 right-2 px-2 py-0.5 bg-slate-950/80 backdrop-blur rounded text-[10px] text-amber-300 border border-slate-700 flex items-center gap-1">
+                    <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"></path></svg>
+                    點擊放大投影片
+                  </span>
+                </div>
+
+                <h3 class="text-lg sm:text-xl font-black font-serif-tc text-white leading-tight">
+                  房貸很高，法定成本卻不一定高！
+                </h3>
+
+                <div class="grid grid-cols-2 gap-2 text-xs">
+                  <div class="glass-card rounded-xl p-2.5 border-slate-700/80">
+                    <span class="text-[10px] text-slate-400 block mb-1">房地法定成本基礎</span>
+                    <p class="font-bold text-slate-100 text-xs">房屋評定現值 ＋ 土地公告現值</p>
+                    <p class="text-[11px] text-slate-400 mt-1">強制依現值計算，遠低於市價或房貸。</p>
+                  </div>
+                  <div class="bg-red-950/40 rounded-xl p-2.5 border border-red-900/50">
+                    <span class="text-[10px] text-red-300 block mb-1">可能面臨的實質落差</span>
+                    <p class="font-bold text-red-400 text-xs">未償房貸餘額 ＞ 現值</p>
+                    <p class="text-[11px] text-slate-300 mt-1">背負龐大債務，賣房卻被認定賺很多！</p>
+                  </div>
+                </div>
+
+                <div class="bg-amber-950/40 border border-amber-500/40 rounded-xl p-3 text-xs text-amber-200">
+                  <strong class="text-amber-400">💡 專家提醒：</strong>
+                  關鍵不只是「有房貸」，而是要看「繼承時債務餘額、房地現值及實際償還情形」的落差！
+                </div>
+              </div>
+
+              <div class="text-[11px] text-slate-400 text-center pt-1 border-t border-slate-800/80">
+                向左滑動看「財政部解套令釋」 ➔
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3: 解套規定（財政部令釋） -->
+          <div class="swiper-slide h-full">
+            <div class="mobile-slide-content no-scrollbar flex flex-col justify-between space-y-3">
+              <div class="space-y-3">
+                <div class="flex items-center justify-between">
+                  <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-md bg-blue-950/80 border border-blue-800/60 text-blue-400 text-xs font-bold">
+                    📜 02 官方公文解套
+                  </span>
+                  <span class="text-[11px] text-slate-400 font-mono">03 / 07</span>
+                </div>
+
+                <!-- 投影片圖形預覽 -->
+                <div class="relative group rounded-xl overflow-hidden border border-slate-700/80 shadow-lg cursor-pointer bg-slate-950" onclick="openLightbox('images/03.png', '投影片 03 財政部令釋')">
+                  <img src="images/03.png" alt="投影片 03 財政部令釋" class="w-full aspect-[16/9] object-cover transition-transform duration-300 group-hover:scale-105" />
+                  <span class="absolute bottom-2 right-2 px-2 py-0.5 bg-slate-950/80 backdrop-blur rounded text-[10px] text-amber-300 border border-slate-700 flex items-center gap-1">
+                    <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"></path></svg>
+                    點擊放大投影片
+                  </span>
+                </div>
+
+                <h3 class="text-lg sm:text-xl font-black font-serif-tc text-white leading-tight">
+                  超過現值的債務，實際償還部分可減除！
+                </h3>
+
+                <div class="glass-card rounded-xl p-3 space-y-2 text-xs">
+                  <div class="flex items-center justify-between border-b border-slate-700 pb-1.5 text-amber-300 font-bold">
+                    <span>財政部 109 年令釋要旨</span>
+                    <span class="text-[10px] text-slate-400">台財稅字第 10904601200 號</span>
+                  </div>
+                  <ul class="space-y-1.5 text-slate-300 text-xs">
+                    <li class="flex items-start gap-1.5">
+                      <span class="text-blue-400 font-bold">①</span>
+                      <span>繼承房地並承受以該房地為擔保、向<strong>金融機構抵押貸款之未償債務</strong>。</span>
+                    </li>
+                    <li class="flex items-start gap-1.5">
+                      <span class="text-blue-400 font-bold">②</span>
+                      <span>日後出售時，超過繼承時現值且<strong>確由繼承人實際負擔償還</strong>的部分，得自房地交易所得中減除！</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <a href="https://law-out.mof.gov.tw/LawContent.aspx?id=GL010845" target="_blank" rel="noopener" class="flex items-center justify-center gap-1.5 w-full py-2 bg-slate-800 hover:bg-slate-700 text-blue-300 border border-blue-500/30 rounded-lg text-xs font-bold transition">
+                  <span>查看財政部主管法規共用系統原文</span>
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                </a>
+              </div>
+
+              <div class="text-[11px] text-slate-400 text-center pt-1 border-t border-slate-800/80">
+                向左滑動看「計算公式」 ➔
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 4: 計算公式 -->
+          <div class="swiper-slide h-full">
+            <div class="mobile-slide-content no-scrollbar flex flex-col justify-between space-y-3">
+              <div class="space-y-3">
+                <div class="flex items-center justify-between">
+                  <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-md bg-emerald-950/80 border border-emerald-800/60 text-emerald-400 text-xs font-bold">
+                    📐 03 計算方式
+                  </span>
+                  <span class="text-[11px] text-slate-400 font-mono">04 / 07</span>
+                </div>
+
+                <!-- 投影片圖形預覽 -->
+                <div class="relative group rounded-xl overflow-hidden border border-slate-700/80 shadow-lg cursor-pointer bg-slate-950" onclick="openLightbox('images/04.png', '投影片 04 計算方式')">
+                  <img src="images/04.png" alt="投影片 04 計算方式" class="w-full aspect-[16/9] object-cover transition-transform duration-300 group-hover:scale-105" />
+                  <span class="absolute bottom-2 right-2 px-2 py-0.5 bg-slate-950/80 backdrop-blur rounded text-[10px] text-amber-300 border border-slate-700 flex items-center gap-1">
+                    <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"></path></svg>
+                    點擊放大投影片
+                  </span>
+                </div>
+
+                <h3 class="text-lg sm:text-xl font-black font-serif-tc text-white leading-tight">
+                  「額外負擔」怎麼計算？
+                </h3>
+
+                <!-- 公式區塊 -->
+                <div class="bg-gradient-to-r from-amber-500/10 via-amber-500/20 to-amber-500/10 border-2 border-amber-500/40 rounded-xl p-3 text-center space-y-2">
+                  <span class="text-[10px] font-bold text-amber-300 tracking-wider uppercase">額外負擔扣除金額計算公式</span>
+                  <div class="text-xs sm:text-sm font-black text-amber-200 leading-snug">
+                    <span class="text-white">額外負擔</span> ＝ 
+                    <span class="text-blue-300">實際負擔房貸未償餘額</span> － 
+                    <span class="text-slate-300">繼承時房地公告現值</span>
+                  </div>
+                  <p class="text-[11px] text-slate-300">
+                    （房地公告現值 ＝ 房屋評定現值 ＋ 土地公告現值）
+                  </p>
+                </div>
+
+                <div class="glass-card rounded-xl p-2.5 text-xs text-slate-300 space-y-1">
+                  <p class="font-bold text-emerald-300">✔️ 可減除條件：</p>
+                  <p class="leading-relaxed text-[11px]">
+                    以上超額中，<strong>確由繼承人實際負擔償還</strong>的部分；未超過現值則無此超額，不可重複申報抵扣。
+                  </p>
+                </div>
+              </div>
+
+              <div class="text-[11px] text-slate-400 text-center pt-1 border-t border-slate-800/80">
+                向左滑動看「案例試算」 ➔
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 5: 案例對照試算 -->
+          <div class="swiper-slide h-full">
+            <div class="mobile-slide-content no-scrollbar flex flex-col justify-between space-y-3">
+              <div class="space-y-3">
+                <div class="flex items-center justify-between">
+                  <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-md bg-amber-500/20 border border-amber-500/40 text-amber-300 text-xs font-bold">
+                    📊 04 案例試算
+                  </span>
+                  <span class="text-[11px] text-slate-400 font-mono">05 / 07</span>
+                </div>
+
+                <!-- 投影片圖形預覽 -->
+                <div class="relative group rounded-xl overflow-hidden border border-slate-700/80 shadow-lg cursor-pointer bg-slate-950" onclick="openLightbox('images/05.png', '投影片 05 案例試算')">
+                  <img src="images/05.png" alt="投影片 05 案例試算" class="w-full aspect-[16/9] object-cover transition-transform duration-300 group-hover:scale-105" />
+                  <span class="absolute bottom-2 right-2 px-2 py-0.5 bg-slate-950/80 backdrop-blur rounded text-[10px] text-amber-300 border border-slate-700 flex items-center gap-1">
+                    <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"></path></svg>
+                    點擊放大投影片
+                  </span>
+                </div>
+
+                <div class="flex items-baseline justify-between">
+                  <h3 class="text-lg sm:text-xl font-black font-serif-tc text-white leading-tight">
+                    課稅所得直接大減 3,000 萬！
+                  </h3>
+                </div>
+
+                <!-- 試算條件與數據 -->
+                <div class="grid grid-cols-3 gap-1.5 text-center text-xs">
+                  <div class="glass-card rounded-lg p-1.5">
+                    <span class="text-[10px] text-slate-400 block">售價(市價)</span>
+                    <span class="font-bold text-white text-xs">5,000 萬</span>
+                  </div>
+                  <div class="glass-card rounded-lg p-1.5">
+                    <span class="text-[10px] text-slate-400 block">公告現值</span>
+                    <span class="font-bold text-slate-300 text-xs">1,000 萬</span>
+                  </div>
+                  <div class="glass-card rounded-lg p-1.5 border-blue-500/40">
+                    <span class="text-[10px] text-blue-300 block">爸爸房貸</span>
+                    <span class="font-bold text-blue-400 text-xs">4,000 萬</span>
+                  </div>
+                </div>
+
+                <!-- 前後對比條列 -->
+                <div class="space-y-1.5 text-xs">
+                  <div class="flex items-center justify-between p-2 rounded-lg bg-red-950/40 border border-red-900/60">
+                    <span class="text-slate-300">❌ 未適用函釋：應稅獲利</span>
+                    <span class="font-bold text-red-400">4,000 萬元</span>
+                  </div>
+                  <div class="flex items-center justify-between p-2 rounded-lg bg-emerald-950/50 border border-emerald-800/60">
+                    <span class="text-slate-200">✅ 適用令釋：扣除額外負擔後</span>
+                    <span class="font-black text-emerald-400 text-sm">1,000 萬元</span>
+                  </div>
+                </div>
+
+                <div class="bg-gradient-to-r from-red-600/30 to-amber-600/30 border border-amber-500/50 rounded-xl p-2.5 flex items-center justify-between">
+                  <div>
+                    <span class="text-[10px] text-amber-200 block font-bold">以最低稅率 20% 計算</span>
+                    <span class="text-xs text-white">直接為家族省下稅金</span>
+                  </div>
+                  <div class="text-right">
+                    <span class="text-xl sm:text-2xl font-black text-amber-300">600 萬元</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="text-[11px] text-slate-400 text-center pt-1 border-t border-slate-800/80">
+                向左滑動看「適用前三件事」 ➔
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 6: 適用關鍵注意事項 -->
+          <div class="swiper-slide h-full">
+            <div class="mobile-slide-content no-scrollbar flex flex-col justify-between space-y-3">
+              <div class="space-y-3">
+                <div class="flex items-center justify-between">
+                  <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-md bg-purple-950/80 border border-purple-800/60 text-purple-400 text-xs font-bold">
+                    🔒 05 適用條件
+                  </span>
+                  <span class="text-[11px] text-slate-400 font-mono">06 / 07</span>
+                </div>
+
+                <!-- 投影片圖形預覽 -->
+                <div class="relative group rounded-xl overflow-hidden border border-slate-700/80 shadow-lg cursor-pointer bg-slate-950" onclick="openLightbox('images/06.png', '投影片 06 適用條件')">
+                  <img src="images/06.png" alt="投影片 06 適用條件" class="w-full aspect-[16/9] object-cover transition-transform duration-300 group-hover:scale-105" />
+                  <span class="absolute bottom-2 right-2 px-2 py-0.5 bg-slate-950/80 backdrop-blur rounded text-[10px] text-amber-300 border border-slate-700 flex items-center gap-1">
+                    <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"></path></svg>
+                    點擊放大投影片
+                  </span>
+                </div>
+
+                <h3 class="text-lg sm:text-xl font-black font-serif-tc text-white leading-tight">
+                  適用前，先確認三件事！
+                </h3>
+
+                <div class="space-y-2 text-xs">
+                  <div class="glass-card rounded-xl p-2.5 space-y-1">
+                    <div class="flex items-center justify-between text-amber-400 font-bold">
+                      <span>01 / 限金融機構貸款</span>
+                      <span class="text-[10px] text-slate-400">BANK LOAN</span>
+                    </div>
+                    <p class="text-slate-300 text-[11px] leading-relaxed">
+                      須為被繼承人向<strong>銀行、農漁會、信用合作社</strong>等抵押之債務，民間借貸不適用。
+                    </p>
+                  </div>
+
+                  <div class="glass-card rounded-xl p-2.5 space-y-1">
+                    <div class="flex items-center justify-between text-blue-400 font-bold">
+                      <span>02 / 需繼承人實際償還</span>
+                      <span class="text-[10px] text-slate-400">ACTUAL PAYMENT</span>
+                    </div>
+                    <p class="text-slate-300 text-[11px] leading-relaxed">
+                      必須具備繼承人<strong>實際出資還款證明與金流軌跡</strong>，確實由其負擔。
+                    </p>
+                  </div>
+
+                  <div class="glass-card rounded-xl p-2.5 space-y-1">
+                    <div class="flex items-center justify-between text-emerald-400 font-bold">
+                      <span>03 / 僅限超額部分</span>
+                      <span class="text-[10px] text-slate-400">EXCESS ONLY</span>
+                    </div>
+                    <p class="text-slate-300 text-[11px] leading-relaxed">
+                      不可重複抵扣！僅<strong>超過公告現值</strong>的部分可列為額外負擔減除。
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="text-[11px] text-slate-400 text-center pt-1 border-t border-slate-800/80">
+                向左滑動看「重點回顧與原文」 ➔
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 7: 結論回顧與官方原文 -->
+          <div class="swiper-slide h-full">
+            <div class="mobile-slide-content no-scrollbar flex flex-col justify-between space-y-3">
+              <div class="space-y-3">
+                <div class="flex items-center justify-between">
+                  <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-md bg-amber-500/20 border border-amber-500/40 text-amber-300 text-xs font-bold">
+                    🎯 06 重點回顧
+                  </span>
+                  <span class="text-[11px] text-slate-400 font-mono">07 / 07</span>
+                </div>
+
+                <!-- 投影片圖形預覽 -->
+                <div class="relative group rounded-xl overflow-hidden border border-slate-700/80 shadow-lg cursor-pointer bg-slate-950" onclick="openLightbox('images/07.png', '投影片 07 重點回顧')">
+                  <img src="images/07.png" alt="投影片 07 重點回顧" class="w-full aspect-[16/9] object-cover transition-transform duration-300 group-hover:scale-105" />
+                  <span class="absolute bottom-2 right-2 px-2 py-0.5 bg-slate-950/80 backdrop-blur rounded text-[10px] text-amber-300 border border-slate-700 flex items-center gap-1">
+                    <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"></path></svg>
+                    點擊放大投影片
+                  </span>
+                </div>
+
+                <h3 class="text-lg sm:text-xl font-black font-serif-tc text-white leading-tight">
+                  房貸超過現值，別忘了確認！
+                </h3>
+
+                <div class="glass-card rounded-xl p-3 space-y-1.5 text-xs text-slate-300">
+                  <div class="flex items-center gap-2 text-emerald-400 font-bold">
+                    <span>✓</span> <span>確認繼承房地及抵押貸款</span>
+                  </div>
+                  <div class="flex items-center gap-2 text-emerald-400 font-bold">
+                    <span>✓</span> <span>比較未償債務與繼承時現值</span>
+                  </div>
+                  <div class="flex items-center gap-2 text-emerald-400 font-bold">
+                    <span>✓</span> <span>留存繼承人實際償還金流證明</span>
+                  </div>
+                </div>
+
+                <!-- 財政部原文引用卡片 -->
+                <div class="bg-slate-900 border-l-4 border-amber-500 p-2.5 rounded-r-xl text-xs space-y-1">
+                  <span class="text-[10px] text-amber-400 font-bold block">財政部令釋原文：</span>
+                  <p class="text-slate-300 italic text-[11px] leading-relaxed">
+                    「該債務餘額超過繼承時房屋評定現值及公告土地現值合計數，且確由該個人實際負擔償還部分，得自房屋及土地交易所得中減除。」
+                  </p>
+                </div>
+
+                <div class="text-[10px] text-slate-400 text-center">
+                  💡 實際適用及稅額，請洽專業會計師或稅務顧問。
+                </div>
+              </div>
+
+              <!-- 切換全文按鈕 -->
+              <div class="pt-2">
+                <button onclick="switchMainView('article')" class="w-full py-2 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-black rounded-xl text-xs shadow-lg transition flex items-center justify-center gap-1.5">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                  <span>切換至「全文閱讀模式」細讀完整條文</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        
+        <!-- Swiper 分頁點點 -->
+        <div class="swiper-pagination py-2 shrink-0"></div>
+      </div>
+
+      <!-- 底部導覽控制列 -->
+      <div class="flex items-center justify-between px-4 py-2.5 bg-slate-900 border-t border-slate-800 shrink-0">
+        <button id="btn-prev" class="px-3.5 py-1.5 rounded-lg bg-slate-800 text-slate-200 hover:bg-slate-700 text-xs font-bold transition flex items-center gap-1">
+          ‹ 上一頁
+        </button>
+        <span class="text-[11px] text-slate-400">左右滑動 • 可上下滾動</span>
+        <button id="btn-next" class="px-3.5 py-1.5 rounded-lg bg-amber-400 text-slate-950 hover:bg-amber-300 text-xs font-black transition shadow-md shadow-amber-500/20 flex items-center gap-1">
+          下一頁 ›
+        </button>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- 模式 2：全文長文閱讀 (Full Article Mode) -->
+  <section id="view-article" class="hidden flex-1 py-8 px-4 sm:px-6 max-w-4xl mx-auto w-full">
+    <article class="bg-white text-slate-900 rounded-3xl shadow-2xl p-6 sm:p-12 border border-slate-200">
+      
+      <!-- 經典專欄報頭 -->
+      <header class="border-b border-slate-200 pb-8 mb-8 space-y-4">
+        <div class="flex flex-wrap items-center gap-2">
+          <span class="px-3 py-1 bg-amber-500 text-slate-950 text-xs font-black rounded-md tracking-wider">
+            [CC] Law & Tax
+          </span>
+          <span class="px-3 py-1 bg-slate-100 text-slate-700 border border-slate-300 text-xs font-bold rounded-md">
+            新聞剪報 ｜ 不動產傳承
+          </span>
+          <span class="px-3 py-1 bg-blue-50 text-blue-700 border border-blue-200 text-xs font-bold rounded-md">
+            財政部官方令釋
+          </span>
+        </div>
+
+        <h1 class="text-2xl sm:text-4xl font-black font-serif-tc text-slate-900 tracking-tight leading-tight">
+          房貸可扣稅 ｜ 繼承取得房地附帶負擔未償債務，於計算房地合一所得稅時得減除「額外負擔」金額之核釋
+        </h1>
+
+        <div class="flex flex-wrap items-center justify-between text-xs text-slate-500 pt-2 border-t border-slate-100 gap-y-2">
+          <div class="flex items-center gap-4">
+            <span>📅 日期：<strong>2026年11月17日</strong></span>
+            <span>✍️ 整理：<strong>問大師家族辦公室 ｜ RICH 王執定</strong></span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 bg-slate-100 rounded text-slate-600 font-mono text-[11px]">台財稅字第 10904601200 號令</span>
+          </div>
+        </div>
+      </header>
+
+      <!-- 重點摘要卡片 -->
+      <div class="bg-amber-50/80 border-2 border-amber-300/80 rounded-2xl p-5 sm:p-6 mb-10 shadow-sm space-y-3">
+        <div class="flex items-center gap-2 text-amber-900 font-black text-base">
+          <span>⚡</span>
+          <span>三分鐘核心速覽（Executive Summary）</span>
+        </div>
+        <ul class="text-sm text-slate-700 space-y-2 leading-relaxed">
+          <li class="flex items-start gap-2">
+            <span class="text-amber-600 font-bold mt-0.5">▪</span>
+            <span><strong>實務痛點解套：</strong>依房地合一稅法規，繼承房地成本強制以「房屋評定現值＋公告現值」計，但若長輩遺留房貸高於現值，繼承人常遭認定「暴賺」課徵重稅。</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-amber-600 font-bold mt-0.5">▪</span>
+            <span><strong>額外負擔抵稅：</strong>財政部 109 年令釋明確核准：繼承人實際償還金融機構房貸超過繼承時公告現值之部分，出售時可作為「額外負擔」全額減除！</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-amber-600 font-bold mt-0.5">▪</span>
+            <span><strong>驚人省稅效益：</strong>以課堂 5,000 萬房產、4,000 萬房貸、1,000 萬現值為例，適用後應稅所得大減 3,000 萬，以 20% 最低稅率計算瞬間為家族省下 <strong>600 萬元現金稅款</strong>！</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- 內文第一部分：公文資訊 -->
+      <section class="mb-10 space-y-4">
+        <h2 class="text-xl sm:text-2xl font-bold font-serif-tc text-slate-900 border-l-4 border-amber-500 pl-3 flex items-center gap-2">
+          <span>📜 財政部官方公文（函釋）資訊</span>
+        </h2>
+        <div class="bg-slate-50 border border-slate-200 rounded-2xl p-5 text-sm space-y-2.5">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div><span class="text-slate-500 font-medium">發文單位：</span><strong class="text-slate-800">財政部</strong></div>
+            <div><span class="text-slate-500 font-medium">發布日期：</span><strong class="text-slate-800">中華民國 109 年 7 月 15 日</strong></div>
+            <div><span class="text-slate-500 font-medium">發文字號：</span><strong class="text-slate-800 font-mono">台財稅字第 10904601200 號令</strong></div>
+            <div><span class="text-slate-500 font-medium">法規名稱：</span><strong class="text-slate-800">核釋個人出售繼承取得房地之交易所得課徵所得稅規定</strong></div>
+          </div>
+          <div class="pt-2 border-t border-slate-200 text-xs text-slate-600 flex items-center justify-between">
+            <span>主題：繼承取得房地附帶負擔未償債務，於計算房地合一所得稅時得減除「額外負擔」金額之核釋。</span>
+            <a href="https://law-out.mof.gov.tw/LawContent.aspx?id=GL010845" target="_blank" rel="noopener" class="text-blue-600 hover:underline font-bold shrink-0 ml-2">
+              查看財政部原文 ↗
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 內文第二部分：核心規定與重點解析 -->
+      <section class="mb-10 space-y-6 leading-relaxed text-slate-700">
+        <h2 class="text-xl sm:text-2xl font-bold font-serif-tc text-slate-900 border-l-4 border-amber-500 pl-3">
+          🔍 公文核心規定與重點解析
+        </h2>
+
+        <div class="space-y-4 text-base">
+          <h3 class="text-lg font-bold text-slate-900 flex items-center gap-2">
+            <span class="w-6 h-6 rounded-full bg-slate-900 text-white text-xs flex items-center justify-center font-bold">1</span>
+            <span>法條背景與痛點：成本只能用公告現值，被視為「憑空暴賺」</span>
+          </h3>
+          <p class="leading-relaxed">
+            在現行房地合一稅制度下，個人繼承取得房屋及土地，法定取得成本強制以「<strong>繼承時之房屋評定現值＋公告土地現值</strong>」計算。然而在實務交易中，許多長輩（被繼承人）留下來的金融機構抵押貸款未償餘額，往往遠遠高於政府公告現值。
+          </p>
+          <p class="leading-relaxed">
+            此時繼承人背負了高額的實質借貸還款義務，但日後出售房地時，若只能以低廉的「公告現值」作為成本抵扣，稅捐機關在帳面上會認定繼承人「賺了巨額差價」，進而按 20% 至 45% 的高稅率課徵巨額房地合一所得稅，形成極不公平的稅負懲罰。
+          </p>
+
+          <h3 class="text-lg font-bold text-slate-900 flex items-center gap-2 pt-2">
+            <span class="w-6 h-6 rounded-full bg-slate-900 text-white text-xs flex items-center justify-center font-bold">2</span>
+            <span>公文解套規定：認列「額外負擔」，自交易所得中減除</span>
+          </h3>
+          <p class="leading-relaxed">
+            為維護租稅公平並符合實質課稅原則，財政部於 109 年特別發布此號重要令釋：
+          </p>
+          <div class="bg-blue-50 border-l-4 border-blue-600 p-4 rounded-r-xl text-slate-800 font-medium">
+            繼承人繼承房地且實際負擔被繼承人向金融機構抵押之未償債務，若該債務餘額超過繼承時的房地公告現值，其<strong>「超過部分（額外負擔）」</strong>得於日後出售該房地時，自房屋及土地交易所得中全數減除！
+          </div>
+
+          <h3 class="text-lg font-bold text-slate-900 flex items-center gap-2 pt-2">
+            <span class="w-6 h-6 rounded-full bg-slate-900 text-white text-xs flex items-center justify-center font-bold">3</span>
+            <span>額外負擔可扣除金額計算公式</span>
+          </h3>
+          <p class="leading-relaxed">
+            計算公式非常直觀明瞭：
+          </p>
+          
+          <div class="bg-slate-900 text-white rounded-2xl p-5 text-center space-y-2 shadow-lg">
+            <span class="text-xs uppercase tracking-widest text-amber-400 font-bold">法定額外負擔計算公式</span>
+            <div class="text-base sm:text-xl font-black text-amber-300">
+              可抵扣額外負擔 ＝ 繼承人實際負擔之房貸未償餘額 － 繼承時房地公告現值
+            </div>
+            <p class="text-xs text-slate-400">
+              註：房地公告現值 ＝ 房屋評定現值 ＋ 土地公告現值合計數
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 內文第三部分：案例對照試算 -->
+      <section class="mb-10 space-y-6">
+        <h2 class="text-xl sm:text-2xl font-bold font-serif-tc text-slate-900 border-l-4 border-amber-500 pl-3">
+          📊 案例對照試算（課堂經典範例）
+        </h2>
+
+        <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 space-y-4 text-slate-800">
+          <p class="font-bold text-slate-900 text-base">
+            📌 情境假設條件：
+          </p>
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            <div class="bg-white p-3.5 rounded-xl border border-slate-200 shadow-sm text-center">
+              <span class="text-xs text-slate-500 block">房產市場售價</span>
+              <strong class="text-lg text-slate-900 font-serif-tc">5,000 萬元</strong>
+            </div>
+            <div class="bg-white p-3.5 rounded-xl border border-slate-200 shadow-sm text-center">
+              <span class="text-xs text-slate-500 block">房地公告現值</span>
+              <strong class="text-lg text-slate-900 font-serif-tc">1,000 萬元</strong>
+            </div>
+            <div class="bg-white p-3.5 rounded-xl border border-blue-200 shadow-sm text-center">
+              <span class="text-xs text-blue-600 block">爸爸辦理房貸（舉債）</span>
+              <strong class="text-lg text-blue-700 font-serif-tc">4,000 萬元</strong>
+            </div>
+          </div>
+
+          <div class="border-t border-slate-200 pt-4 space-y-4">
+            <h4 class="font-bold text-slate-900 text-base flex items-center gap-2">
+              <span>💡 兒子繼承後以 5,000 萬元出售時的稅務計算：</span>
+            </h4>
+
+            <div class="space-y-3 text-sm">
+              <div class="p-3 bg-white rounded-xl border border-slate-200">
+                <span class="font-bold text-slate-900">步驟 1：依據台財稅字第 10904601200 號令計算「額外負擔」</span>
+                <p class="text-slate-700 mt-1">
+                  額外負擔 ＝ 4,000 萬（房貸）− 1,000 萬（公告現值）＝ <strong class="text-amber-600 text-base font-bold">3,000 萬元額外負擔</strong>
+                </p>
+              </div>
+
+              <div class="p-3 bg-white rounded-xl border border-slate-200">
+                <span class="font-bold text-slate-900">步驟 2：兒子賣房時的房地合一課稅所得計算</span>
+                <ul class="mt-1 space-y-1 text-slate-700">
+                  <li>• 原始認定獲利：5,000 萬（售價）− 1,000 萬（公告現值）＝ 4,000 萬元</li>
+                  <li>• 扣除公文規定之額外負擔：4,000 萬（獲利）− 3,000 萬（額外負擔抵稅）＝ <strong class="text-emerald-600 text-base font-bold">1,000 萬元應稅所得</strong></li>
+                </ul>
+              </div>
+
+              <div class="p-4 bg-gradient-to-r from-emerald-500/10 via-amber-500/10 to-emerald-500/10 border-2 border-emerald-500/30 rounded-xl space-y-2">
+                <div class="flex items-center justify-between">
+                  <span class="font-bold text-emerald-900 text-base">步驟 3：結論與驚人省稅效益</span>
+                  <span class="px-2.5 py-0.5 bg-emerald-600 text-white rounded text-xs font-bold">節稅高達 600 萬</span>
+                </div>
+                <p class="text-slate-700 leading-relaxed">
+                  因為適用了這張財政部公文函釋，兒子的應稅所得直接從 <strong>4,000 萬元大降至 1,000 萬元</strong>，整整抵扣掉了 <strong>3,000 萬元的課稅所得</strong>！
+                </p>
+                <p class="text-slate-800 font-bold">
+                  以房地合一最低持有稅率 20% 計算，瞬間為家族省下了 <span class="text-red-600 text-lg font-black underline">600 萬元的房地合一所得稅</span>！
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 內文第四部分：適用關鍵注意事項 -->
+      <section class="mb-10 space-y-6">
+        <h2 class="text-xl sm:text-2xl font-bold font-serif-tc text-slate-900 border-l-4 border-amber-500 pl-3">
+          ⚠️ 適用此公文的關鍵注意事項（三大要件）
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div class="bg-slate-50 border border-slate-200 rounded-2xl p-5 space-y-2">
+            <div class="w-8 h-8 rounded-lg bg-blue-100 text-blue-700 font-black flex items-center justify-center text-sm">1</div>
+            <h4 class="font-bold text-slate-900 text-base">限金融機構貸款</h4>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              借款必須為被繼承人向<strong>金融機構（銀行／農漁會／信用合作社等）</strong>設定抵押權的未償債務。若為民間私人借貸或股東往來借款，通常不符規定，無法適用。
+            </p>
+          </div>
+
+          <div class="bg-slate-50 border border-slate-200 rounded-2xl p-5 space-y-2">
+            <div class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 font-black flex items-center justify-center text-sm">2</div>
+            <h4 class="font-bold text-slate-900 text-base">需由繼承人實際償還</h4>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              繼承人必須有<strong>實際出資或還款證明（如銀行存摺扣款、自有資金匯款紀錄）</strong>，以實質證明該筆房貸確實由該繼承人承擔並已按期清償。
+            </p>
+          </div>
+
+          <div class="bg-slate-50 border border-slate-200 rounded-2xl p-5 space-y-2">
+            <div class="w-8 h-8 rounded-lg bg-amber-100 text-amber-700 font-black flex items-center justify-center text-sm">3</div>
+            <h4 class="font-bold text-slate-900 text-base">不可以重複抵扣</h4>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              房貸餘額小於或等於「公告現值」的部分，已依法反映在法定成本中；<strong>只有超過公告現值的超額部分</strong>，才可作為額外負擔自交易所得中減除，不可雙重扣除。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 內文第五部分：財政部公文原文全文 -->
+      <section class="mb-10 space-y-4">
+        <h2 class="text-xl sm:text-2xl font-bold font-serif-tc text-slate-900 border-l-4 border-amber-500 pl-3">
+          🏛️ 財政部官方公文原文（台財稅字第 10904601200 號令）
+        </h2>
+
+        <div class="bg-amber-50/50 border border-amber-200 rounded-2xl p-6 text-slate-800 space-y-3">
+          <p class="text-xs font-bold text-amber-800 tracking-wider">
+            【公文法規全文引用】
+          </p>
+          <blockquote class="italic text-sm sm:text-base leading-relaxed text-slate-800 border-l-4 border-amber-500 pl-4 py-1">
+            「個人繼承取得房屋、土地時，併同繼承被繼承人所遺以該房屋、土地為擔保向金融機構抵押貸款之未償債務餘額者，應整體衡量其繼承取得房屋、土地之經濟實質，該債務餘額超過繼承時房屋評定現值及公告土地現值部分，核屬其因繼承取得該房屋、土地所生之額外負擔。嗣個人交易該房屋、土地，依所得稅法第十四條第一項第七類第二款規定計算房屋之財產交易所得或依同法第十四條之四第一項規定計算房屋、土地交易所得時，該債務餘額超過繼承時房屋評定現值及公告土地現值合計數，且確由該個人實際負擔償還部分，得自房屋及土地交易所得中減除。」
+          </blockquote>
+          <div class="pt-2 text-right">
+            <a href="https://law-out.mof.gov.tw/LawContent.aspx?id=GL010845" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 px-3 py-1.5 bg-slate-900 hover:bg-slate-800 text-white rounded-lg text-xs font-bold transition">
+              <span>前往財政部主管法規共用系統查閱原文</span>
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 內文第六部分：7張投影片完整圖輯畫廊 -->
+      <section class="space-y-4">
+        <div class="flex items-center justify-between border-l-4 border-amber-500 pl-3">
+          <h2 class="text-xl sm:text-2xl font-bold font-serif-tc text-slate-900">
+            🖼️ 投影片圖片說明與完整圖輯（共 7 張）
+          </h2>
+          <span class="text-xs text-slate-500 hidden sm:block">點擊任意圖片可開啟高解析燈箱放大瀏覽</span>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 pt-2">
+          
+          <!-- Card 1 -->
+          <div class="group bg-slate-50 border border-slate-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition">
+            <div class="relative overflow-hidden cursor-pointer" onclick="openLightbox('images/01.png', '第 1 張 ｜ 封面')">
+              <img src="images/01.png" alt="第 1 張 ｜ 封面" class="w-full aspect-[16/9] object-cover transition-transform duration-300 group-hover:scale-105" loading="lazy" />
+              <div class="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors"></div>
+              <span class="absolute top-2 left-2 px-2 py-0.5 bg-slate-900/80 backdrop-blur rounded text-[10px] text-amber-300 font-bold">01 / 封面</span>
+            </div>
+            <div class="p-3 text-xs space-y-1">
+              <p class="font-bold text-slate-900">第 1 張 ｜ 封面</p>
+              <p class="text-slate-600 text-[11px] line-clamp-2">繼承房子也繼承房貸？賣房時，別漏掉「額外負擔」！</p>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="group bg-slate-50 border border-slate-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition">
+            <div class="relative overflow-hidden cursor-pointer" onclick="openLightbox('images/02.png', '第 2 張 ｜ 痛點：成本只能用公告現值')">
+              <img src="images/02.png" alt="第 2 張 ｜ 痛點：成本只能用公告現值" class="w-full aspect-[16/9] object-cover transition-transform duration-300 group-hover:scale-105" loading="lazy" />
+              <span class="absolute top-2 left-2 px-2 py-0.5 bg-slate-900/80 backdrop-blur rounded text-[10px] text-amber-300 font-bold">02 / 理解問題</span>
+            </div>
+            <div class="p-3 text-xs space-y-1">
+              <p class="font-bold text-slate-900">第 2 張 ｜ 理解問題與痛點</p>
+              <p class="text-slate-600 text-[11px] line-clamp-2">房貸很高，成本卻不一定高；法定成本與實質借貸存在龐大落差。</p>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="group bg-slate-50 border border-slate-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition">
+            <div class="relative overflow-hidden cursor-pointer" onclick="openLightbox('images/03.png', '第 3 張 ｜ 解套：財政部令釋')">
+              <img src="images/03.png" alt="第 3 張 ｜ 解套：財政部令釋" class="w-full aspect-[16/9] object-cover transition-transform duration-300 group-hover:scale-105" loading="lazy" />
+              <span class="absolute top-2 left-2 px-2 py-0.5 bg-slate-900/80 backdrop-blur rounded text-[10px] text-amber-300 font-bold">03 / 官方令釋</span>
+            </div>
+            <div class="p-3 text-xs space-y-1">
+              <p class="font-bold text-slate-900">第 3 張 ｜ 官方公文解套規定</p>
+              <p class="text-slate-600 text-[11px] line-clamp-2">超過現值的金融機構抵押債務，繼承人實際償還部分可自交易所得減除。</p>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="group bg-slate-50 border border-slate-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition">
+            <div class="relative overflow-hidden cursor-pointer" onclick="openLightbox('images/04.png', '第 4 張 ｜ 計算公式')">
+              <img src="images/04.png" alt="第 4 張 ｜ 計算公式" class="w-full aspect-[16/9] object-cover transition-transform duration-300 group-hover:scale-105" loading="lazy" />
+              <span class="absolute top-2 left-2 px-2 py-0.5 bg-slate-900/80 backdrop-blur rounded text-[10px] text-amber-300 font-bold">04 / 計算方式</span>
+            </div>
+            <div class="p-3 text-xs space-y-1">
+              <p class="font-bold text-slate-900">第 4 張 ｜ 額外負擔計算公式</p>
+              <p class="text-slate-600 text-[11px] line-clamp-2">額外負擔 ＝ 繼承人實際負擔之房貸未償餘額 － 繼承時房地公告現值。</p>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="group bg-slate-50 border border-slate-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition">
+            <div class="relative overflow-hidden cursor-pointer" onclick="openLightbox('images/05.png', '第 5 張 ｜ 案例試算')">
+              <img src="images/05.png" alt="第 5 張 ｜ 案例試算" class="w-full aspect-[16/9] object-cover transition-transform duration-300 group-hover:scale-105" loading="lazy" />
+              <span class="absolute top-2 left-2 px-2 py-0.5 bg-slate-900/80 backdrop-blur rounded text-[10px] text-amber-300 font-bold">05 / 案例試算</span>
+            </div>
+            <div class="p-3 text-xs space-y-1">
+              <p class="font-bold text-slate-900">第 5 張 ｜ 經典案例對照試算</p>
+              <p class="text-slate-600 text-[11px] line-clamp-2">課稅所得減少 3,000 萬元，以 20% 最低稅率試算直接省下 600 萬元！</p>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="group bg-slate-50 border border-slate-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition">
+            <div class="relative overflow-hidden cursor-pointer" onclick="openLightbox('images/06.png', '第 6 張 ｜ 適用前三件事')">
+              <img src="images/06.png" alt="第 6 張 ｜ 適用前三件事" class="w-full aspect-[16/9] object-cover transition-transform duration-300 group-hover:scale-105" loading="lazy" />
+              <span class="absolute top-2 left-2 px-2 py-0.5 bg-slate-900/80 backdrop-blur rounded text-[10px] text-amber-300 font-bold">06 / 適用條件</span>
+            </div>
+            <div class="p-3 text-xs space-y-1">
+              <p class="font-bold text-slate-900">第 6 張 ｜ 適用前確認三要件</p>
+              <p class="text-slate-600 text-[11px] line-clamp-2">限金融機構貸款、需繼承人實際償還證明、僅限超額部分不可重複抵扣。</p>
+            </div>
+          </div>
+
+          <!-- Card 7 -->
+          <div class="group bg-slate-50 border border-slate-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition">
+            <div class="relative overflow-hidden cursor-pointer" onclick="openLightbox('images/07.png', '第 7 張 ｜ 結論與原文')">
+              <img src="images/07.png" alt="第 7 張 ｜ 結論與原文" class="w-full aspect-[16/9] object-cover transition-transform duration-300 group-hover:scale-105" loading="lazy" />
+              <span class="absolute top-2 left-2 px-2 py-0.5 bg-slate-900/80 backdrop-blur rounded text-[10px] text-amber-300 font-bold">07 / 重點回顧</span>
+            </div>
+            <div class="p-3 text-xs space-y-1">
+              <p class="font-bold text-slate-900">第 7 張 ｜ 結論重點回顧</p>
+              <p class="text-slate-600 text-[11px] line-clamp-2">房貸超過現值別忘確認；務必完整保存各項借貸與實際還款證明文件。</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 文章末端提示 -->
+      <footer class="mt-12 pt-6 border-t border-slate-200 text-xs text-slate-500 space-y-2">
+        <p>⚠️ <strong>免責聲明：</strong>本網頁內容彙整自財政部台財稅字第 10904601200 號令及講師教學案例，僅供稅務知識推廣與傳承規劃參考，非屬具體個案之保證節稅承諾。實際個案申報、持分劃分及稅額核定，敬請洽詢合格會計師、地政士或專業稅務人員。</p>
+        <p>© 2026 問大師家族辦公室 ｜ RICH 王執定 整理發布</p>
+      </footer>
+
+    </article>
+  </section>
+
+  <!-- 燈箱 Modal (Lightbox for full-screen slide zoom) -->
+  <div id="lightbox" class="fixed inset-0 z-50 bg-black/90 backdrop-blur-md hidden flex flex-col items-center justify-center p-4">
+    <div class="relative max-w-5xl w-full flex flex-col items-center">
+      <button onclick="closeLightbox()" class="absolute -top-10 right-0 text-white hover:text-amber-400 p-2 text-sm font-bold flex items-center gap-1 transition">
+        <span>關閉 ✕</span>
+      </button>
+      <img id="lightbox-img" src="" alt="放大投影片" class="max-w-full max-h-[82vh] rounded-xl object-contain shadow-2xl border border-slate-700" />
+      <p id="lightbox-caption" class="text-slate-300 text-xs mt-3 font-medium text-center"></p>
+    </div>
+  </div>
+
+  <!-- 頁尾 -->
+  <footer class="bg-slate-900 border-t border-slate-800 py-4 px-4 text-center text-xs text-slate-400 shrink-0">
+    <p>房貸可扣稅 ｜ 財政部台財稅字第 10904601200 號令解析 ｜ 問大師家族辦公室 RICH 王執定</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    // 雙模式切換函數
+    function switchMainView(view) {
+      const slideView = document.getElementById('view-mobile-slide');
+      const articleView = document.getElementById('view-article');
+      const tabSlide = document.getElementById('tab-mobile-slide');
+      const tabArticle = document.getElementById('tab-article');
+
+      if (view === 'slide') {
+        slideView.classList.remove('hidden');
+        articleView.classList.add('hidden');
+        tabSlide.className = "px-3 py-1.5 rounded-lg transition-all text-slate-950 bg-amber-400 font-extrabold shadow flex items-center gap-1.5";
+        tabArticle.className = "px-3 py-1.5 rounded-lg transition-all text-slate-300 hover:text-white flex items-center gap-1.5";
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      } else if (view === 'article') {
+        slideView.classList.add('hidden');
+        articleView.classList.remove('hidden');
+        tabArticle.className = "px-3 py-1.5 rounded-lg transition-all text-slate-950 bg-amber-400 font-extrabold shadow flex items-center gap-1.5";
+        tabSlide.className = "px-3 py-1.5 rounded-lg transition-all text-slate-300 hover:text-white flex items-center gap-1.5";
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    }
+
+    // 初始化 Swiper
+    const mobileSwiper = new Swiper(".mobileSwiper", {
+      direction: "horizontal",
+      loop: false,
+      speed: 350,
+      grabCursor: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true
+      },
+      keyboard: {
+        enabled: true,
+        onlyInViewport: true
+      },
+      on: {
+        slideChange: function () {
+          const total = this.slides.length;
+          const current = this.activeIndex + 1;
+          document.getElementById('mobile-page-indicator').textContent = `${current} / ${total}`;
+          document.getElementById('btn-prev').style.opacity = current === 1 ? '0.35' : '1';
+          document.getElementById('btn-next').textContent = current === total ? '回到首頁 ↺' : '下一頁 ›';
+        }
+      }
+    });
+
+    // 控制列按鈕事件
+    document.getElementById('btn-prev').addEventListener('click', () => mobileSwiper.slidePrev());
+    document.getElementById('btn-next').addEventListener('click', () => {
+      if (mobileSwiper.activeIndex === mobileSwiper.slides.length - 1) {
+        mobileSwiper.slideTo(0);
+      } else {
+        mobileSwiper.slideNext();
+      }
+    });
+
+    // 燈箱 Lightbox 功能
+    function openLightbox(src, caption) {
+      const modal = document.getElementById('lightbox');
+      const img = document.getElementById('lightbox-img');
+      const cap = document.getElementById('lightbox-caption');
+      img.src = src;
+      cap.textContent = caption || '';
+      modal.classList.remove('hidden');
+    }
+
+    function closeLightbox() {
+      const modal = document.getElementById('lightbox');
+      modal.classList.add('hidden');
+      document.getElementById('lightbox-img').src = '';
+    }
+
+    // ESC 鍵關閉燈箱
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeLightbox();
+    });
+    document.getElementById('lightbox').addEventListener('click', (e) => {
+      if (e.target.id === 'lightbox' || e.target.id === 'lightbox-img') closeLightbox();
+    });
+  </script>
+</body>
+</html>
